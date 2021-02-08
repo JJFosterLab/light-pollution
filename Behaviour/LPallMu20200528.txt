@@ -1,0 +1,433 @@
+"ShortName" "Condition" "Beetle" "Direct" "Indirect" "x"
+"1" "Moon
+Rural" "MoonRural" 1 FALSE FALSE 97.2424296293296
+"2" "Moon
+Rural" "MoonRural" 2 FALSE FALSE 49.4194863027493
+"3" "Moon
+Rural" "MoonRural" 3 FALSE FALSE 117.866895084819
+"4" "Moon
+Rural" "MoonRural" 4 FALSE FALSE 220.488069873268
+"5" "Moon
+Rural" "MoonRural" 5 FALSE FALSE 98.7322711548897
+"6" "Moon
+Rural" "MoonRural" 6 FALSE FALSE 335.978515850591
+"7" "Moon
+Rural" "MoonRural" 7 FALSE FALSE 357.99901031863
+"8" "Moon
+Rural" "MoonRural" 8 FALSE FALSE 26.2319234225146
+"9" "Moon
+Rural" "MoonRural" 9 FALSE FALSE 348.516738644773
+"10" "Moon
+Rural" "MoonRural" 10 FALSE FALSE 33.4031343980661
+"11" "Hazy Moon
+Rural" "HazyMoonRural" 21 FALSE FALSE 96.6399914931877
+"12" "Hazy Moon
+Rural" "HazyMoonRural" 22 FALSE FALSE 336.65604318587
+"13" "Hazy Moon
+Rural" "HazyMoonRural" 23 FALSE FALSE 129.163236265012
+"14" "Hazy Moon
+Rural" "HazyMoonRural" 24 FALSE FALSE 142.63388198214
+"15" "Hazy Moon
+Rural" "HazyMoonRural" 25 FALSE FALSE 173.481123569895
+"16" "Hazy Moon
+Rural" "HazyMoonRural" 26 FALSE FALSE 144.63573739883
+"17" "Hazy Moon
+Rural" "HazyMoonRural" 27 FALSE FALSE 84.9604683527308
+"18" "Hazy Moon
+Rural" "HazyMoonRural" 28 FALSE FALSE 291.551534484265
+"19" "Hazy Moon
+Rural" "HazyMoonRural" 29 FALSE FALSE 117.905921036985
+"20" "Hazy Moon
+Rural" "HazyMoonRural" 30 FALSE FALSE 36.8654844266618
+"21" "Stars 2
+Rural" "StarsRural" 41 FALSE FALSE 102.028831384437
+"22" "Stars 2
+Rural" "StarsRural" 42 FALSE FALSE 142.56817203844
+"23" "Stars 2
+Rural" "StarsRural" 43 FALSE FALSE 95.2279911923377
+"24" "Stars 2
+Rural" "StarsRural" 44 FALSE FALSE 70.0807109940577
+"25" "Stars 2
+Rural" "StarsRural" 45 FALSE FALSE 292.427366248534
+"26" "Stars 2
+Rural" "StarsRural" 46 FALSE FALSE 260.679050416282
+"27" "Stars 2
+Rural" "StarsRural" 47 FALSE FALSE 43.9975677619986
+"28" "Stars 2
+Rural" "StarsRural" 48 FALSE FALSE 358.773847429476
+"29" "Stars 2
+Rural" "StarsRural" 49 FALSE FALSE 51.340471647659
+"30" "Stars 2
+Rural" "StarsRural" 50 FALSE FALSE 74.7431929559556
+"31" "Cloudy
+Rural" "CloudyRural" 61 FALSE FALSE 75.2128252892905
+"32" "Cloudy
+Rural" "CloudyRural" 62 FALSE FALSE 283.188516505337
+"33" "Cloudy
+Rural" "CloudyRural" 63 FALSE FALSE 170.718334497403
+"34" "Cloudy
+Rural" "CloudyRural" 64 FALSE FALSE 217.995743039897
+"35" "Cloudy
+Rural" "CloudyRural" 65 FALSE FALSE 179.979500349419
+"36" "Cloudy
+Rural" "CloudyRural" 66 FALSE FALSE 102.837143905226
+"37" "Cloudy
+Rural" "CloudyRural" 67 FALSE FALSE 349.693268713991
+"38" "Cloudy
+Rural" "CloudyRural" 68 FALSE FALSE 86.4005281911647
+"39" "Cloudy
+Rural" "CloudyRural" 69 FALSE FALSE 9.3511566858845
+"40" "Cloudy
+Rural" "CloudyRural" 70 FALSE FALSE 137.840186712709
+"41" "Overcast
+Rural" "OvercastRural" 71 FALSE FALSE 181.69335871436
+"42" "Overcast
+Rural" "OvercastRural" 72 FALSE FALSE 216.581822463231
+"43" "Overcast
+Rural" "OvercastRural" 73 FALSE FALSE 104.886689248559
+"44" "Overcast
+Rural" "OvercastRural" 74 FALSE FALSE 6.18657960456264
+"45" "Overcast
+Rural" "OvercastRural" 75 FALSE FALSE 355.189447646036
+"46" "Overcast
+Rural" "OvercastRural" 76 FALSE FALSE 204.043242161126
+"47" "Overcast
+Rural" "OvercastRural" 77 FALSE FALSE 102.599166606054
+"48" "Overcast
+Rural" "OvercastRural" 78 FALSE FALSE 192.022729645137
+"49" "Overcast
+Rural" "OvercastRural" 79 FALSE FALSE 346.37960589973
+"50" "Overcast
+Rural" "OvercastRural" 80 FALSE FALSE 225.98245130033
+"51" "noMW
+Rural" "noMWRural" 101 FALSE FALSE 260.279611379315
+"52" "noMW
+Rural" "noMWRural" 102 FALSE FALSE 226.924342939455
+"53" "noMW
+Rural" "noMWRural" 103 FALSE FALSE 217.853523917858
+"54" "noMW
+Rural" "noMWRural" 104 FALSE FALSE 248.472099701725
+"55" "noMW
+Rural" "noMWRural" 105 FALSE FALSE 211.175536466459
+"56" "noMW
+Rural" "noMWRural" 106 FALSE FALSE 192.871542415245
+"57" "noMW
+Rural" "noMWRural" 107 FALSE FALSE 204.30169446379
+"58" "noMW
+Rural" "noMWRural" 108 FALSE FALSE 317.661271888908
+"59" "noMW
+Rural" "noMWRural" 109 FALSE FALSE 292.003035540337
+"60" "noMW
+Rural" "noMWRural" 110 FALSE FALSE 245.306168574017
+"61" "Overcast (Walls)
+Rural" "OvercastWallsRural" 121 FALSE FALSE 296.973326908329
+"62" "Overcast (Walls)
+Rural" "OvercastWallsRural" 122 FALSE FALSE 269.592710076049
+"63" "Overcast (Walls)
+Rural" "OvercastWallsRural" 123 FALSE FALSE 209.099929595878
+"64" "Overcast (Walls)
+Rural" "OvercastWallsRural" 124 FALSE FALSE 314.941018774511
+"65" "Overcast (Walls)
+Rural" "OvercastWallsRural" 125 FALSE FALSE 63.8384986889786
+"66" "Overcast (Walls)
+Rural" "OvercastWallsRural" 126 FALSE FALSE 73.4583074900915
+"67" "Overcast (Walls)
+Rural" "OvercastWallsRural" 127 FALSE FALSE 40.1790587930099
+"68" "Overcast (Walls)
+Rural" "OvercastWallsRural" 128 FALSE FALSE 171.298666523971
+"69" "Overcast (Walls)
+Rural" "OvercastWallsRural" 129 FALSE FALSE 287.976831523314
+"70" "Overcast (Walls)
+Rural" "OvercastWallsRural" 130 FALSE FALSE 50.5648282700853
+"71" "Stars (Walls)
+Rural" "StarsWallsRural" 131 FALSE FALSE 183.220894698418
+"72" "Stars (Walls)
+Rural" "StarsWallsRural" 132 FALSE FALSE 50.1161225064335
+"73" "Stars (Walls)
+Rural" "StarsWallsRural" 133 FALSE FALSE 173.43575712673
+"74" "Stars (Walls)
+Rural" "StarsWallsRural" 134 FALSE FALSE 354.261193471723
+"75" "Stars (Walls)
+Rural" "StarsWallsRural" 135 FALSE FALSE 298.105457287403
+"76" "Stars (Walls)
+Rural" "StarsWallsRural" 136 FALSE FALSE 218.12364946359
+"77" "Stars (Walls)
+Rural" "StarsWallsRural" 137 FALSE FALSE 127.508762794059
+"78" "Stars (Walls)
+Rural" "StarsWallsRural" 138 FALSE FALSE 251.150884350452
+"79" "Stars (Walls)
+Rural" "StarsWallsRural" 139 FALSE FALSE 287.001535030856
+"80" "Stars (Walls)
+Rural" "StarsWallsRural" 140 FALSE FALSE 167.443634204681
+"81" "Stars
+Rural" "StarsRural" 177 FALSE FALSE 94.7366002618633
+"82" "Stars
+Rural" "StarsRural" 178 FALSE FALSE 104.333621460308
+"83" "Stars
+Rural" "StarsRural" 179 FALSE FALSE 73.8038994154471
+"84" "Stars
+Rural" "StarsRural" 180 FALSE FALSE 104.693932143224
+"85" "Stars
+Rural" "StarsRural" 181 FALSE FALSE 107.064325176689
+"86" "Stars
+Rural" "StarsRural" 182 FALSE FALSE 101.385765611158
+"87" "Stars
+Rural" "StarsRural" 183 FALSE FALSE 67.1727059937782
+"88" "Stars
+Rural" "StarsRural" 184 FALSE FALSE 169.782973596479
+"89" "Stars
+Rural" "StarsRural" 185 FALSE FALSE 56.1628820273669
+"90" "Stars
+Rural" "StarsRural" 186 FALSE FALSE 271.047730732346
+"91" "Security Light OFF
+Rural" "SecurityLightOFFRural" 197 FALSE FALSE 38.4046194011275
+"92" "Security Light OFF
+Rural" "SecurityLightOFFRural" 198 FALSE FALSE 141.007778323085
+"93" "Security Light OFF
+Rural" "SecurityLightOFFRural" 199 FALSE FALSE 1.75906325372308
+"94" "Security Light OFF
+Rural" "SecurityLightOFFRural" 200 FALSE FALSE 238.677403691721
+"95" "Security Light OFF
+Rural" "SecurityLightOFFRural" 201 FALSE FALSE 91.2614260515771
+"96" "Security Light OFF
+Rural" "SecurityLightOFFRural" 202 FALSE FALSE 260.122939440579
+"97" "Security Light OFF
+Rural" "SecurityLightOFFRural" 203 FALSE FALSE 176.295096653412
+"98" "Security Light OFF
+Rural" "SecurityLightOFFRural" 204 FALSE FALSE 191.775570542656
+"99" "Security Light OFF
+Rural" "SecurityLightOFFRural" 205 FALSE FALSE 31.0100827959782
+"100" "Security Light OFF
+Rural" "SecurityLightOFFRural" 206 FALSE FALSE 124.184291648068
+"101" "\"Veranda\"
+Rural" "VerandaRural" 111 TRUE FALSE 78.2044435141385
+"102" "\"Veranda\"
+Rural" "VerandaRural" 112 TRUE FALSE 208.592619797313
+"103" "\"Veranda\"
+Rural" "VerandaRural" 113 TRUE FALSE 236.722896411668
+"104" "\"Veranda\"
+Rural" "VerandaRural" 114 TRUE FALSE 185.536691346362
+"105" "\"Veranda\"
+Rural" "VerandaRural" 115 TRUE FALSE 69.9253672760756
+"106" "\"Veranda\"
+Rural" "VerandaRural" 116 TRUE FALSE 166.711651583306
+"107" "\"Veranda\"
+Rural" "VerandaRural" 117 TRUE FALSE 352.382193202827
+"108" "\"Veranda\"
+Rural" "VerandaRural" 118 TRUE FALSE 293.066830748232
+"109" "\"Veranda\"
+Rural" "VerandaRural" 119 TRUE FALSE 204.488862663787
+"110" "\"Veranda\"
+Rural" "VerandaRural" 120 TRUE FALSE 38.4588598806974
+"111" "Security Light ON
+Rural" "SecurityLightONRural" 197 TRUE FALSE 199.016690811907
+"112" "Security Light ON
+Rural" "SecurityLightONRural" 198 TRUE FALSE 212.149602346209
+"113" "Security Light ON
+Rural" "SecurityLightONRural" 199 TRUE FALSE 161.258203779246
+"114" "Security Light ON
+Rural" "SecurityLightONRural" 200 TRUE FALSE 215.046065822171
+"115" "Security Light ON
+Rural" "SecurityLightONRural" 201 TRUE FALSE 208.003363569141
+"116" "Security Light ON
+Rural" "SecurityLightONRural" 202 TRUE FALSE 242.909681361129
+"117" "Security Light ON
+Rural" "SecurityLightONRural" 203 TRUE FALSE 226.14620490047
+"118" "Security Light ON
+Rural" "SecurityLightONRural" 204 TRUE FALSE 223.480558730868
+"119" "Security Light ON
+Rural" "SecurityLightONRural" 205 TRUE FALSE 171.099580685759
+"120" "Security Light ON
+Rural" "SecurityLightONRural" 206 TRUE FALSE 203.002599771351
+"121" "Some Stars (Walls)
+Urban" "SomeStarsWallsUrban" 141 FALSE TRUE 282.252443420332
+"122" "Some Stars (Walls)
+Urban" "SomeStarsWallsUrban" 142 FALSE TRUE 167.355700258605
+"123" "Cloudy (Walls)
+Urban" "SomeCloudsWallsUrban" 143 FALSE TRUE 221.969352174314
+"124" "Cloudy (Walls)
+Urban" "SomeCloudsWallsUrban" 144 FALSE TRUE 263.404313607752
+"125" "Cloudy (Walls)
+Urban" "SomeCloudsWallsUrban" 145 FALSE TRUE 25.3293995365876
+"126" "Some Stars (Walls)
+Urban" "SomeStarsWallsUrban" 146 FALSE TRUE 128.110400676872
+"127" "Stars 2 (Walls)
+Urban" "SomeStarsWallsUrban" 147 FALSE TRUE 68.0039725104344
+"128" "Stars 2 (Walls)
+Urban" "SomeStarsWallsUrban" 148 FALSE TRUE 246.174948495373
+"129" "Stars 2 (Walls)
+Urban" "SomeStarsWallsUrban" 149 FALSE TRUE 225.252452152747
+"130" "Stars 2 (Walls)
+Urban" "SomeStarsWallsUrban" 150 FALSE TRUE 257.51890608159
+"131" "Cloudy 2 (Walls)
+Urban" "SomeCloudsWallsUrban" 151 FALSE TRUE 330.104463276522
+"132" "Stars 2 (Walls)
+Urban" "SomeStarsWallsUrban" 152 FALSE TRUE 8.6975230121699
+"133" "Stars GOGGLES (Walls)
+Urban" "EyesCoveredWallsUrban" 153 FALSE TRUE 7.87997822176637
+"134" "Stars GOGGLES (Walls)
+Urban" "EyesCoveredWallsUrban" 154 FALSE TRUE 92.2355639230065
+"135" "Stars 3 (Walls)
+Urban" "StarsWallsUrban" 155 FALSE TRUE 48.0933550821896
+"136" "Stars 3 (Walls)
+Urban" "StarsWallsUrban" 156 FALSE TRUE 346.138930946117
+"137" "Cloudy 3 (Walls)
+Urban" "CloudsWallsUrban" 157 FALSE TRUE 181.977788357565
+"138" "Cloudy 3 (Walls)
+Urban" "CloudsWallsUrban" 158 FALSE TRUE 18.697284799378
+"139" "Cloudy 3 (Walls)
+Urban" "CloudsWallsUrban" 159 FALSE TRUE 303.222402492752
+"140" "Cloudy 3 (Walls)
+Urban" "CloudsWallsUrban" 160 FALSE TRUE 345.296331316527
+"141" "Stars 3 (Walls)
+Urban" "StarsWallsUrban" 161 FALSE TRUE 257.987756737311
+"142" "Stars (Walls)
+Urban" "StarsWallsUrban" 162 FALSE TRUE 74.2425927134103
+"143" "Stars (Walls)
+Urban" "StarsWallsUrban" 163 FALSE TRUE 149.129438671314
+"144" "Stars (Walls)
+Urban" "StarsWallsUrban" 164 FALSE TRUE 115.616593078353
+"145" "Stars (Walls)
+Urban" "StarsWallsUrban" 165 FALSE TRUE 290.188808552819
+"146" "Stars (Walls)
+Urban" "StarsWallsUrban" 166 FALSE TRUE 285.7504527376
+"147" "Stars (Walls)
+Urban" "StarsWallsUrban" 167 FALSE TRUE 151.559342997573
+"148" "Stars (Walls)
+Urban" "StarsWallsUrban" 168 FALSE TRUE 120.696062064076
+"149" "Stars (Walls)
+Urban" "StarsWallsUrban" 169 FALSE TRUE 77.9049581374872
+"150" "Stars (Walls)
+Urban" "StarsWallsUrban" 170 FALSE TRUE 251.83062536214
+"151" "Stars (Walls)
+Urban" "StarsWallsUrban" 171 FALSE TRUE 265.664028479584
+"152" "White Tack (Walls)
+Urban" "EyesCoveredWallsUrban" 172 FALSE TRUE 152.300502016479
+"153" "White Tack (Walls)
+Urban" "EyesCoveredWallsUrban" 173 FALSE TRUE 359.045466883953
+"154" "White Tack (Walls)
+Urban" "EyesCoveredWallsUrban" 174 FALSE TRUE 26.3115766514705
+"155" "White Tack (Walls)
+Urban" "EyesCoveredWallsUrban" 175 FALSE TRUE 45.7813084382126
+"156" "White Tack (Walls)
+Urban" "EyesCoveredWallsUrban" 176 FALSE TRUE 70.6723184649654
+"157" "Moon
+Urban" "MoonUrban" 11 TRUE TRUE 62.0172422204721
+"158" "Moon
+Urban" "MoonUrban" 12 TRUE TRUE 13.191799152766
+"159" "Moon
+Urban" "MoonUrban" 13 TRUE TRUE 85.5112896614668
+"160" "Moon
+Urban" "MoonUrban" 14 TRUE TRUE 25.78949035071
+"161" "Moon
+Urban" "MoonUrban" 15 TRUE TRUE 228.50091491599
+"162" "Moon
+Urban" "MoonUrban" 16 TRUE TRUE 109.40671276155
+"163" "Moon
+Urban" "MoonUrban" 17 TRUE TRUE 96.4552724838916
+"164" "Moon
+Urban" "MoonUrban" 18 TRUE TRUE 42.5
+"165" "Moon
+Urban" "MoonUrban" 19 TRUE TRUE 72.4665664940726
+"166" "Moon
+Urban" "MoonUrban" 20 TRUE TRUE 16.7786252483706
+"167" "Hazy Moon
+ Urban" "HazyMoonUrban" 31 TRUE TRUE 262.079917954251
+"168" "Hazy Moon
+ Urban" "HazyMoonUrban" 32 TRUE TRUE 221.615574544779
+"169" "Hazy Moon
+ Urban" "HazyMoonUrban" 33 TRUE TRUE 280.372146423869
+"170" "Hazy Moon
+ Urban" "HazyMoonUrban" 34 TRUE TRUE 205.384072472218
+"171" "Hazy Moon
+ Urban" "HazyMoonUrban" 35 TRUE TRUE 80.9071689076416
+"172" "Hazy Moon
+ Urban" "HazyMoonUrban" 36 TRUE TRUE 58.6568784514646
+"173" "Hazy Moon
+ Urban" "HazyMoonUrban" 37 TRUE TRUE 48.3649639074076
+"174" "Hazy Moon
+ Urban" "HazyMoonUrban" 38 TRUE TRUE 209.358449480049
+"175" "Hazy Moon
+ Urban" "HazyMoonUrban" 39 TRUE TRUE 89.4570915517588
+"176" "Hazy Moon
+ Urban" "HazyMoonUrban" 40 TRUE TRUE 149.996325684632
+"177" "Stars 2
+Urban" "StarsUrban" 51 TRUE TRUE 167.756210427218
+"178" "Stars 2
+Urban" "StarsUrban" 52 TRUE TRUE 224.421672476604
+"179" "Stars 2
+Urban" "StarsUrban" 53 TRUE TRUE 330.41006960118
+"180" "Stars 2
+Urban" "StarsUrban" 54 TRUE TRUE 229.336374495281
+"181" "Stars 2
+Urban" "StarsUrban" 55 TRUE TRUE 295.809894854487
+"182" "Stars 2
+Urban" "StarsUrban" 56 TRUE TRUE 347.389847382483
+"183" "Stars 2
+Urban" "StarsUrban" 57 TRUE TRUE 156.456237318862
+"184" "Stars 2
+Urban" "StarsUrban" 58 TRUE TRUE 145.059524926235
+"185" "Stars 2
+Urban" "StarsUrban" 59 TRUE TRUE 141.287261280023
+"186" "Stars 2
+Urban" "StarsUrban" 60 TRUE TRUE 256.593669822455
+"187" "Overcast
+Urban" "OvercastUrban" 81 TRUE TRUE 270.695120336602
+"188" "Overcast
+Urban" "OvercastUrban" 82 TRUE TRUE 209.823750002711
+"189" "Overcast
+Urban" "OvercastUrban" 83 TRUE TRUE 352.095863177207
+"190" "Overcast
+Urban" "OvercastUrban" 84 TRUE TRUE 260.500304835635
+"191" "Overcast
+Urban" "OvercastUrban" 85 TRUE TRUE 22.0126792374682
+"192" "Overcast
+Urban" "OvercastUrban" 86 TRUE TRUE 287.060205364582
+"193" "Overcast
+Urban" "OvercastUrban" 87 TRUE TRUE 273.33192738153
+"194" "Overcast
+Urban" "OvercastUrban" 88 TRUE TRUE 262.950298306184
+"195" "Overcast
+Urban" "OvercastUrban" 89 TRUE TRUE 159.906429681281
+"196" "Overcast
+Urban" "OvercastUrban" 90 TRUE TRUE 165.461463194149
+"197" "\"Mushrooms\"
+Urban" "MushroomsUrban" 91 TRUE TRUE 258.966136653576
+"198" "\"Mushrooms\"
+Urban" "MushroomsUrban" 92 TRUE TRUE 199.484917756526
+"199" "\"Mushrooms\"
+Urban" "MushroomsUrban" 93 TRUE TRUE 286.750369721709
+"200" "\"Mushrooms\"
+Urban" "MushroomsUrban" 94 TRUE TRUE 205.442893102335
+"201" "\"Mushrooms\"
+Urban" "MushroomsUrban" 95 TRUE TRUE 326.574010554605
+"202" "\"Mushrooms\"
+Urban" "MushroomsUrban" 96 TRUE TRUE 55.4163124544329
+"203" "\"Mushrooms\"
+Urban" "MushroomsUrban" 97 TRUE TRUE 320.392191733811
+"204" "\"Mushrooms\"
+Urban" "MushroomsUrban" 98 TRUE TRUE 246.504828512971
+"205" "\"Mushrooms\"
+Urban" "MushroomsUrban" 99 TRUE TRUE 142.50228444845
+"206" "\"Mushrooms\"
+Urban" "MushroomsUrban" 100 TRUE TRUE 353.128363038362
+"207" "Stars
+Urban" "StarsUrban" 187 TRUE TRUE 168.363922512616
+"208" "Stars
+Urban" "StarsUrban" 188 TRUE TRUE 53.5192437802169
+"209" "Stars
+Urban" "StarsUrban" 189 TRUE TRUE 15.0064673576257
+"210" "Stars
+Urban" "StarsUrban" 190 TRUE TRUE 243.941775846175
+"211" "Stars
+Urban" "StarsUrban" 191 TRUE TRUE 296.088557611277
+"212" "Stars
+Urban" "StarsUrban" 192 TRUE TRUE 182.479373250045
+"213" "Stars
+Urban" "StarsUrban" 193 TRUE TRUE 263.159145082715
+"214" "Stars
+Urban" "StarsUrban" 194 TRUE TRUE 135.870748638042
+"215" "Stars
+Urban" "StarsUrban" 195 TRUE TRUE 151.467987234214
+"216" "Stars
+Urban" "StarsUrban" 196 TRUE TRUE 95.7892558820861

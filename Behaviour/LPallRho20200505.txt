@@ -1,0 +1,433 @@
+"ShortName" "Condition" "Beetle" "Direct" "Indirect" "rho"
+"1" "Moon
+Rural" "MoonRural" 1 FALSE FALSE 0.932100054921139
+"2" "Moon
+Rural" "MoonRural" 2 FALSE FALSE 0.977028132717618
+"3" "Moon
+Rural" "MoonRural" 3 FALSE FALSE 0.938259200004863
+"4" "Moon
+Rural" "MoonRural" 4 FALSE FALSE 0.992068006256482
+"5" "Moon
+Rural" "MoonRural" 5 FALSE FALSE 0.847557680713736
+"6" "Moon
+Rural" "MoonRural" 6 FALSE FALSE 0.978190395799748
+"7" "Moon
+Rural" "MoonRural" 7 FALSE FALSE 0.497320429453418
+"8" "Moon
+Rural" "MoonRural" 8 FALSE FALSE 0.90707666081007
+"9" "Moon
+Rural" "MoonRural" 9 FALSE FALSE 0.972065720124763
+"10" "Moon
+Rural" "MoonRural" 10 FALSE FALSE 0.908858279973794
+"11" "Hazy Moon
+Rural" "HazyMoonRural" 21 FALSE FALSE 0.803728695160313
+"12" "Hazy Moon
+Rural" "HazyMoonRural" 22 FALSE FALSE 0.867314326907635
+"13" "Hazy Moon
+Rural" "HazyMoonRural" 23 FALSE FALSE 0.905445571021909
+"14" "Hazy Moon
+Rural" "HazyMoonRural" 24 FALSE FALSE 0.902260356658749
+"15" "Hazy Moon
+Rural" "HazyMoonRural" 25 FALSE FALSE 0.791597161949278
+"16" "Hazy Moon
+Rural" "HazyMoonRural" 26 FALSE FALSE 0.959099956949011
+"17" "Hazy Moon
+Rural" "HazyMoonRural" 27 FALSE FALSE 0.332756738211593
+"18" "Hazy Moon
+Rural" "HazyMoonRural" 28 FALSE FALSE 0.878597104987217
+"19" "Hazy Moon
+Rural" "HazyMoonRural" 29 FALSE FALSE 0.67878586873295
+"20" "Hazy Moon
+Rural" "HazyMoonRural" 30 FALSE FALSE 0.806867755492183
+"21" "Stars 2
+Rural" "StarsRural" 41 FALSE FALSE 0.812670877084927
+"22" "Stars 2
+Rural" "StarsRural" 42 FALSE FALSE 0.916011375184117
+"23" "Stars 2
+Rural" "StarsRural" 43 FALSE FALSE 0.919704274193448
+"24" "Stars 2
+Rural" "StarsRural" 44 FALSE FALSE 0.946041086628376
+"25" "Stars 2
+Rural" "StarsRural" 45 FALSE FALSE 0.794188143482775
+"26" "Stars 2
+Rural" "StarsRural" 46 FALSE FALSE 0.802669129920043
+"27" "Stars 2
+Rural" "StarsRural" 47 FALSE FALSE 0.988775923899114
+"28" "Stars 2
+Rural" "StarsRural" 48 FALSE FALSE 0.542960529556095
+"29" "Stars 2
+Rural" "StarsRural" 49 FALSE FALSE 0.930405913477126
+"30" "Stars 2
+Rural" "StarsRural" 50 FALSE FALSE 0.777348034217637
+"31" "Cloudy
+Rural" "CloudyRural" 61 FALSE FALSE 0.860070639844965
+"32" "Cloudy
+Rural" "CloudyRural" 62 FALSE FALSE 0.727070679754299
+"33" "Cloudy
+Rural" "CloudyRural" 63 FALSE FALSE 0.694787143623847
+"34" "Cloudy
+Rural" "CloudyRural" 64 FALSE FALSE 0.989241344206435
+"35" "Cloudy
+Rural" "CloudyRural" 65 FALSE FALSE 0.898191159792857
+"36" "Cloudy
+Rural" "CloudyRural" 66 FALSE FALSE 0.82348732173384
+"37" "Cloudy
+Rural" "CloudyRural" 67 FALSE FALSE 0.747634565491252
+"38" "Cloudy
+Rural" "CloudyRural" 68 FALSE FALSE 0.825342740282507
+"39" "Cloudy
+Rural" "CloudyRural" 69 FALSE FALSE 0.810643630008211
+"40" "Cloudy
+Rural" "CloudyRural" 70 FALSE FALSE 0.834491449229888
+"41" "Overcast
+Rural" "OvercastRural" 71 FALSE FALSE 0.473675539974375
+"42" "Overcast
+Rural" "OvercastRural" 72 FALSE FALSE 0.58173700873275
+"43" "Overcast
+Rural" "OvercastRural" 73 FALSE FALSE 0.740539216375615
+"44" "Overcast
+Rural" "OvercastRural" 74 FALSE FALSE 0.552853421114477
+"45" "Overcast
+Rural" "OvercastRural" 75 FALSE FALSE 0.688495481297242
+"46" "Overcast
+Rural" "OvercastRural" 76 FALSE FALSE 0.56259591837736
+"47" "Overcast
+Rural" "OvercastRural" 77 FALSE FALSE 0.465329807795462
+"48" "Overcast
+Rural" "OvercastRural" 78 FALSE FALSE 0.946260179082237
+"49" "Overcast
+Rural" "OvercastRural" 79 FALSE FALSE 0.578487564396031
+"50" "Overcast
+Rural" "OvercastRural" 80 FALSE FALSE 0.981980050183793
+"51" "noMW
+Rural" "noMWRural" 101 FALSE FALSE 0.867047738501051
+"52" "noMW
+Rural" "noMWRural" 102 FALSE FALSE 0.544727090186147
+"53" "noMW
+Rural" "noMWRural" 103 FALSE FALSE 0.727074574929573
+"54" "noMW
+Rural" "noMWRural" 104 FALSE FALSE 0.729148194509344
+"55" "noMW
+Rural" "noMWRural" 105 FALSE FALSE 0.983387614035232
+"56" "noMW
+Rural" "noMWRural" 106 FALSE FALSE 0.804754518466339
+"57" "noMW
+Rural" "noMWRural" 107 FALSE FALSE 0.639556292016429
+"58" "noMW
+Rural" "noMWRural" 108 FALSE FALSE 0.849343085549549
+"59" "noMW
+Rural" "noMWRural" 109 FALSE FALSE 0.709651160284035
+"60" "noMW
+Rural" "noMWRural" 110 FALSE FALSE 0.644626581177917
+"61" "Overcast (Walls)
+Rural" "OvercastWallsRural" 121 FALSE FALSE 0.153424285350667
+"62" "Overcast (Walls)
+Rural" "OvercastWallsRural" 122 FALSE FALSE 0.158087047519557
+"63" "Overcast (Walls)
+Rural" "OvercastWallsRural" 123 FALSE FALSE 0.236491116459999
+"64" "Overcast (Walls)
+Rural" "OvercastWallsRural" 124 FALSE FALSE 0.265312298103729
+"65" "Overcast (Walls)
+Rural" "OvercastWallsRural" 125 FALSE FALSE 0.311396552791067
+"66" "Overcast (Walls)
+Rural" "OvercastWallsRural" 126 FALSE FALSE 0.189526058862058
+"67" "Overcast (Walls)
+Rural" "OvercastWallsRural" 127 FALSE FALSE 0.283077974247291
+"68" "Overcast (Walls)
+Rural" "OvercastWallsRural" 128 FALSE FALSE 0.133280472124575
+"69" "Overcast (Walls)
+Rural" "OvercastWallsRural" 129 FALSE FALSE 0.392166880017004
+"70" "Overcast (Walls)
+Rural" "OvercastWallsRural" 130 FALSE FALSE 0.458573004694978
+"71" "Stars (Walls)
+Rural" "StarsWallsRural" 131 FALSE FALSE 0.21538658358655
+"72" "Stars (Walls)
+Rural" "StarsWallsRural" 132 FALSE FALSE 0.463836506882099
+"73" "Stars (Walls)
+Rural" "StarsWallsRural" 133 FALSE FALSE 0.068041623172053
+"74" "Stars (Walls)
+Rural" "StarsWallsRural" 134 FALSE FALSE 0.83867867394523
+"75" "Stars (Walls)
+Rural" "StarsWallsRural" 135 FALSE FALSE 0.844979194801799
+"76" "Stars (Walls)
+Rural" "StarsWallsRural" 136 FALSE FALSE 0.449759437170688
+"77" "Stars (Walls)
+Rural" "StarsWallsRural" 137 FALSE FALSE 0.224498150179278
+"78" "Stars (Walls)
+Rural" "StarsWallsRural" 138 FALSE FALSE 0.805810530776665
+"79" "Stars (Walls)
+Rural" "StarsWallsRural" 139 FALSE FALSE 0.66978097942113
+"80" "Stars (Walls)
+Rural" "StarsWallsRural" 140 FALSE FALSE 0.510627275922445
+"81" "Stars
+Rural" "StarsRural" 177 FALSE FALSE 0.89610501848638
+"82" "Stars
+Rural" "StarsRural" 178 FALSE FALSE 0.738495403686321
+"83" "Stars
+Rural" "StarsRural" 179 FALSE FALSE 0.98955191737693
+"84" "Stars
+Rural" "StarsRural" 180 FALSE FALSE 0.799215468740022
+"85" "Stars
+Rural" "StarsRural" 181 FALSE FALSE 0.744933231291727
+"86" "Stars
+Rural" "StarsRural" 182 FALSE FALSE 0.956279741837296
+"87" "Stars
+Rural" "StarsRural" 183 FALSE FALSE 0.937965448197382
+"88" "Stars
+Rural" "StarsRural" 184 FALSE FALSE 0.633249481645643
+"89" "Stars
+Rural" "StarsRural" 185 FALSE FALSE 0.887061435922666
+"90" "Stars
+Rural" "StarsRural" 186 FALSE FALSE 0.820560152036759
+"91" "Security Light OFF
+Rural" "SecurityLightOFFRural" 197 FALSE FALSE 0.785840906350131
+"92" "Security Light OFF
+Rural" "SecurityLightOFFRural" 198 FALSE FALSE 0.819306451791045
+"93" "Security Light OFF
+Rural" "SecurityLightOFFRural" 199 FALSE FALSE 0.914648888181195
+"94" "Security Light OFF
+Rural" "SecurityLightOFFRural" 200 FALSE FALSE 0.902500735878936
+"95" "Security Light OFF
+Rural" "SecurityLightOFFRural" 201 FALSE FALSE 0.93259818354995
+"96" "Security Light OFF
+Rural" "SecurityLightOFFRural" 202 FALSE FALSE 0.964960747139867
+"97" "Security Light OFF
+Rural" "SecurityLightOFFRural" 203 FALSE FALSE 0.771605753726985
+"98" "Security Light OFF
+Rural" "SecurityLightOFFRural" 204 FALSE FALSE 0.94247268287647
+"99" "Security Light OFF
+Rural" "SecurityLightOFFRural" 205 FALSE FALSE 0.985050247194345
+"100" "Security Light OFF
+Rural" "SecurityLightOFFRural" 206 FALSE FALSE 0.735836577046216
+"101" "\"Veranda\"
+Rural" "VerandaRural" 111 TRUE FALSE 0.895932050295982
+"102" "\"Veranda\"
+Rural" "VerandaRural" 112 TRUE FALSE 0.981969228573328
+"103" "\"Veranda\"
+Rural" "VerandaRural" 113 TRUE FALSE 0.470531301078203
+"104" "\"Veranda\"
+Rural" "VerandaRural" 114 TRUE FALSE 0.986794063677093
+"105" "\"Veranda\"
+Rural" "VerandaRural" 115 TRUE FALSE 0.951765469003133
+"106" "\"Veranda\"
+Rural" "VerandaRural" 116 TRUE FALSE 0.825088055468695
+"107" "\"Veranda\"
+Rural" "VerandaRural" 117 TRUE FALSE 0.94159284962086
+"108" "\"Veranda\"
+Rural" "VerandaRural" 118 TRUE FALSE 0.830251765428937
+"109" "\"Veranda\"
+Rural" "VerandaRural" 119 TRUE FALSE 0.976982525650166
+"110" "\"Veranda\"
+Rural" "VerandaRural" 120 TRUE FALSE 0.962341260739078
+"111" "Security Light ON
+Rural" "SecurityLightONRural" 197 TRUE FALSE 0.954969675362464
+"112" "Security Light ON
+Rural" "SecurityLightONRural" 198 TRUE FALSE 0.964560149981037
+"113" "Security Light ON
+Rural" "SecurityLightONRural" 199 TRUE FALSE 0.93345659519644
+"114" "Security Light ON
+Rural" "SecurityLightONRural" 200 TRUE FALSE 0.985621062916621
+"115" "Security Light ON
+Rural" "SecurityLightONRural" 201 TRUE FALSE 0.99301542805987
+"116" "Security Light ON
+Rural" "SecurityLightONRural" 202 TRUE FALSE 0.960847081711763
+"117" "Security Light ON
+Rural" "SecurityLightONRural" 203 TRUE FALSE 0.821770365762105
+"118" "Security Light ON
+Rural" "SecurityLightONRural" 204 TRUE FALSE 0.981064991741556
+"119" "Security Light ON
+Rural" "SecurityLightONRural" 205 TRUE FALSE 0.756949570258743
+"120" "Security Light ON
+Rural" "SecurityLightONRural" 206 TRUE FALSE 0.994524468719843
+"121" "Some Stars (Walls)
+Urban" "SomeStarsWallsUrban" 141 FALSE TRUE 0.791705720558011
+"122" "Some Stars (Walls)
+Urban" "SomeStarsWallsUrban" 142 FALSE TRUE 0.876783799753795
+"123" "Cloudy (Walls)
+Urban" "SomeCloudsWallsUrban" 143 FALSE TRUE 0.492286122774321
+"124" "Cloudy (Walls)
+Urban" "SomeCloudsWallsUrban" 144 FALSE TRUE 0.593741154697545
+"125" "Cloudy (Walls)
+Urban" "SomeCloudsWallsUrban" 145 FALSE TRUE 0.303141468626254
+"126" "Some Stars (Walls)
+Urban" "SomeStarsWallsUrban" 146 FALSE TRUE 0.173612795026123
+"127" "Stars 2 (Walls)
+Urban" "SomeStarsWallsUrban" 147 FALSE TRUE 0.714386110349977
+"128" "Stars 2 (Walls)
+Urban" "SomeStarsWallsUrban" 148 FALSE TRUE 0.425040437938223
+"129" "Stars 2 (Walls)
+Urban" "SomeStarsWallsUrban" 149 FALSE TRUE 0.264316848344389
+"130" "Stars 2 (Walls)
+Urban" "SomeStarsWallsUrban" 150 FALSE TRUE 0.555466876580028
+"131" "Cloudy 2 (Walls)
+Urban" "SomeCloudsWallsUrban" 151 FALSE TRUE 0.569984337798818
+"132" "Stars 2 (Walls)
+Urban" "SomeStarsWallsUrban" 152 FALSE TRUE 0.361687333431234
+"133" "Stars GOGGLES (Walls)
+Urban" "EyesCoveredWallsUrban" 153 FALSE TRUE 0.1278113112842
+"134" "Stars GOGGLES (Walls)
+Urban" "EyesCoveredWallsUrban" 154 FALSE TRUE 0.0627596955050859
+"135" "Stars 3 (Walls)
+Urban" "StarsWallsUrban" 155 FALSE TRUE 0.299978756113443
+"136" "Stars 3 (Walls)
+Urban" "StarsWallsUrban" 156 FALSE TRUE 0.213018197186874
+"137" "Cloudy 3 (Walls)
+Urban" "CloudsWallsUrban" 157 FALSE TRUE 0.521639316070789
+"138" "Cloudy 3 (Walls)
+Urban" "CloudsWallsUrban" 158 FALSE TRUE 0.671676221231782
+"139" "Cloudy 3 (Walls)
+Urban" "CloudsWallsUrban" 159 FALSE TRUE 0.358657374233517
+"140" "Cloudy 3 (Walls)
+Urban" "CloudsWallsUrban" 160 FALSE TRUE 0.354858546345993
+"141" "Stars 3 (Walls)
+Urban" "StarsWallsUrban" 161 FALSE TRUE 0.179083286433553
+"142" "Stars (Walls)
+Urban" "StarsWallsUrban" 162 FALSE TRUE 0.0879007678625466
+"143" "Stars (Walls)
+Urban" "StarsWallsUrban" 163 FALSE TRUE 0.358508143337343
+"144" "Stars (Walls)
+Urban" "StarsWallsUrban" 164 FALSE TRUE 0.445371814200626
+"145" "Stars (Walls)
+Urban" "StarsWallsUrban" 165 FALSE TRUE 0.332384193374508
+"146" "Stars (Walls)
+Urban" "StarsWallsUrban" 166 FALSE TRUE 0.275489030311093
+"147" "Stars (Walls)
+Urban" "StarsWallsUrban" 167 FALSE TRUE 0.770919332991173
+"148" "Stars (Walls)
+Urban" "StarsWallsUrban" 168 FALSE TRUE 0.388004409791346
+"149" "Stars (Walls)
+Urban" "StarsWallsUrban" 169 FALSE TRUE 0.450410057084284
+"150" "Stars (Walls)
+Urban" "StarsWallsUrban" 170 FALSE TRUE 0.206135902674949
+"151" "Stars (Walls)
+Urban" "StarsWallsUrban" 171 FALSE TRUE 0.351888454047838
+"152" "White Tack (Walls)
+Urban" "EyesCoveredWallsUrban" 172 FALSE TRUE 0.317785168269298
+"153" "White Tack (Walls)
+Urban" "EyesCoveredWallsUrban" 173 FALSE TRUE 0.165212757267404
+"154" "White Tack (Walls)
+Urban" "EyesCoveredWallsUrban" 174 FALSE TRUE 0.208046005139404
+"155" "White Tack (Walls)
+Urban" "EyesCoveredWallsUrban" 175 FALSE TRUE 0.414138605177705
+"156" "White Tack (Walls)
+Urban" "EyesCoveredWallsUrban" 176 FALSE TRUE 0.530406157228479
+"157" "Moon
+Urban" "MoonUrban" 11 TRUE TRUE 0.992269308134221
+"158" "Moon
+Urban" "MoonUrban" 12 TRUE TRUE 0.878873340283269
+"159" "Moon
+Urban" "MoonUrban" 13 TRUE TRUE 0.968751694318803
+"160" "Moon
+Urban" "MoonUrban" 14 TRUE TRUE 0.953170777045627
+"161" "Moon
+Urban" "MoonUrban" 15 TRUE TRUE 0.996919327115393
+"162" "Moon
+Urban" "MoonUrban" 16 TRUE TRUE 0.968756392139743
+"163" "Moon
+Urban" "MoonUrban" 17 TRUE TRUE 0.980329738364445
+"164" "Moon
+Urban" "MoonUrban" 18 TRUE TRUE 0.986905991713869
+"165" "Moon
+Urban" "MoonUrban" 19 TRUE TRUE 0.951642841144664
+"166" "Moon
+Urban" "MoonUrban" 20 TRUE TRUE 0.903430650086484
+"167" "Hazy Moon
+ Urban" "HazyMoonUrban" 31 TRUE TRUE 0.805125124041465
+"168" "Hazy Moon
+ Urban" "HazyMoonUrban" 32 TRUE TRUE 0.789526493379013
+"169" "Hazy Moon
+ Urban" "HazyMoonUrban" 33 TRUE TRUE 0.896046040759359
+"170" "Hazy Moon
+ Urban" "HazyMoonUrban" 34 TRUE TRUE 0.781597203392154
+"171" "Hazy Moon
+ Urban" "HazyMoonUrban" 35 TRUE TRUE 0.856412153407754
+"172" "Hazy Moon
+ Urban" "HazyMoonUrban" 36 TRUE TRUE 0.973837143160541
+"173" "Hazy Moon
+ Urban" "HazyMoonUrban" 37 TRUE TRUE 0.90485175306448
+"174" "Hazy Moon
+ Urban" "HazyMoonUrban" 38 TRUE TRUE 0.900596361330109
+"175" "Hazy Moon
+ Urban" "HazyMoonUrban" 39 TRUE TRUE 0.97549414971153
+"176" "Hazy Moon
+ Urban" "HazyMoonUrban" 40 TRUE TRUE 0.963847013728691
+"177" "Stars 2
+Urban" "StarsUrban" 51 TRUE TRUE 0.905156127011056
+"178" "Stars 2
+Urban" "StarsUrban" 52 TRUE TRUE 0.90952604498955
+"179" "Stars 2
+Urban" "StarsUrban" 53 TRUE TRUE 0.971112358108089
+"180" "Stars 2
+Urban" "StarsUrban" 54 TRUE TRUE 0.836108758874109
+"181" "Stars 2
+Urban" "StarsUrban" 55 TRUE TRUE 0.93639778502225
+"182" "Stars 2
+Urban" "StarsUrban" 56 TRUE TRUE 0.510648903419465
+"183" "Stars 2
+Urban" "StarsUrban" 57 TRUE TRUE 0.984880635516373
+"184" "Stars 2
+Urban" "StarsUrban" 58 TRUE TRUE 0.948012936335546
+"185" "Stars 2
+Urban" "StarsUrban" 59 TRUE TRUE 0.953814741681878
+"186" "Stars 2
+Urban" "StarsUrban" 60 TRUE TRUE 0.958690341153275
+"187" "Overcast
+Urban" "OvercastUrban" 81 TRUE TRUE 0.857312845909135
+"188" "Overcast
+Urban" "OvercastUrban" 82 TRUE TRUE 0.81921378539719
+"189" "Overcast
+Urban" "OvercastUrban" 83 TRUE TRUE 0.777332651550058
+"190" "Overcast
+Urban" "OvercastUrban" 84 TRUE TRUE 0.990538988244759
+"191" "Overcast
+Urban" "OvercastUrban" 85 TRUE TRUE 0.990755036904463
+"192" "Overcast
+Urban" "OvercastUrban" 86 TRUE TRUE 0.978783960442453
+"193" "Overcast
+Urban" "OvercastUrban" 87 TRUE TRUE 0.846405307932961
+"194" "Overcast
+Urban" "OvercastUrban" 88 TRUE TRUE 0.967443922706665
+"195" "Overcast
+Urban" "OvercastUrban" 89 TRUE TRUE 0.959416486196582
+"196" "Overcast
+Urban" "OvercastUrban" 90 TRUE TRUE 0.983755792373341
+"197" "\"Mushrooms\"
+Urban" "MushroomsUrban" 91 TRUE TRUE 0.771383394029595
+"198" "\"Mushrooms\"
+Urban" "MushroomsUrban" 92 TRUE TRUE 0.733108242196972
+"199" "\"Mushrooms\"
+Urban" "MushroomsUrban" 93 TRUE TRUE 0.149998279108569
+"200" "\"Mushrooms\"
+Urban" "MushroomsUrban" 94 TRUE TRUE 0.821163015120671
+"201" "\"Mushrooms\"
+Urban" "MushroomsUrban" 95 TRUE TRUE 0.978105210207818
+"202" "\"Mushrooms\"
+Urban" "MushroomsUrban" 96 TRUE TRUE 0.777533598740518
+"203" "\"Mushrooms\"
+Urban" "MushroomsUrban" 97 TRUE TRUE 0.948574915730367
+"204" "\"Mushrooms\"
+Urban" "MushroomsUrban" 98 TRUE TRUE 0.985557081181596
+"205" "\"Mushrooms\"
+Urban" "MushroomsUrban" 99 TRUE TRUE 0.74580592451544
+"206" "\"Mushrooms\"
+Urban" "MushroomsUrban" 100 TRUE TRUE 0.768376444597589
+"207" "Stars
+Urban" "StarsUrban" 187 TRUE TRUE 0.651203823916211
+"208" "Stars
+Urban" "StarsUrban" 188 TRUE TRUE 0.978824077435137
+"209" "Stars
+Urban" "StarsUrban" 189 TRUE TRUE 0.789761447221834
+"210" "Stars
+Urban" "StarsUrban" 190 TRUE TRUE 0.975994453366621
+"211" "Stars
+Urban" "StarsUrban" 191 TRUE TRUE 0.827891102055923
+"212" "Stars
+Urban" "StarsUrban" 192 TRUE TRUE 0.959445432901815
+"213" "Stars
+Urban" "StarsUrban" 193 TRUE TRUE 0.930271357192871
+"214" "Stars
+Urban" "StarsUrban" 194 TRUE TRUE 0.82833571943614
+"215" "Stars
+Urban" "StarsUrban" 195 TRUE TRUE 0.979588442099184
+"216" "Stars
+Urban" "StarsUrban" 196 TRUE TRUE 0.922847614992069
