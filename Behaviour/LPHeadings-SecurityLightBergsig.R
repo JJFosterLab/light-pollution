@@ -14,7 +14,7 @@ Instalload <- function(Required){
  }
  for(i in 1:length(Required)){
  	library( paste0(Required[i]) , character.only = T)}
-###################	END OF FUNCTION	###########################	
+###################	END OF FUNCTION	###########################
  }
 
 #	Save current plot with dimensions displayed on screen and label accordingly
@@ -32,7 +32,7 @@ PDFsave <- function(Directory, Experiment, Species, PlotName, Dim){
 	#Save the image actual size
 	dev.off()#Doesn't save until invisible copy is closed
 	dev.set(dev.prev())
-###################	END OF FUNCTION	###########################	
+###################	END OF FUNCTION	###########################
 }
 
 AN <- as.numeric	#shorten 'as.numeric'
@@ -46,23 +46,23 @@ degrad <- pi/180#ratio of radians to degrees
 	if(clock){
 	return(
 	as.circular(angles,
-		units = 'degrees', 
-		type = 'angles', #don't set this to directions, apparently very different 
-		modulo = '2pi', 
-		zero = pi/2, 
-		rotation = 'clock', 
+		units = 'degrees',
+		type = 'angles', #don't set this to directions, apparently very different
+		modulo = '2pi',
+		zero = pi/2,
+		rotation = 'clock',
 		template = 'none')
 		)
 		}else{
 		as.circular(angles,
-		units = 'degrees', 
-		type = 'angles', #don't set this to directions, apparently very different 
-		modulo = '2pi', 
-		zero = pi/2, 
-		rotation = 'counter', 
+		units = 'degrees',
+		type = 'angles', #don't set this to directions, apparently very different
+		modulo = '2pi',
+		zero = pi/2,
+		rotation = 'counter',
 		template = 'none')
 		}#if(clock)
-###################	END OF FUNCTION	###########################	
+###################	END OF FUNCTION	###########################
 }
 
 # plot a circular histogram with stacked points, a mean vector and ±1 s.d. error bars
@@ -83,19 +83,19 @@ Cplot <- function(headings, sp, bt, ax, ...){
 			if(missing(zro)){zro <- pi/2};if(missing(out)){out <- 0.05}
 			if(missing(uci)){uci <- lci}
 			lwr <- mn - lci;	upr <- mn + uci
-			circ.pos <- ( ((drc == 'clock')-1)*2 +1) * 
+			circ.pos <- ( ((drc == 'clock')-1)*2 +1) *
 				-seq( pi*lwr/180, pi*upr/180, length.out = lng) + zro
 			circ.x <- cos(circ.pos)*(1+out);	circ.y <- sin(circ.pos)*(1+out)
 			lines(circ.x, circ.y, ...)
-			lines.circular( as.circular(rep(lwr,2),units = 'degrees', 
-				type = 'angles', modulo = '2pi', zero = zro, 
-				rotation = drc, template = 'none'), 
-				out*c(0.5, 1.5), modulo = '2pi', 
-				zero = zro, rotation = drc, ...)
-			lines.circular(as.circular(rep(upr,2),units = 'degrees', 
-				type = 'angles', modulo = '2pi', zero = zro, 
+			lines.circular( as.circular(rep(lwr,2),units = 'degrees',
+				type = 'angles', modulo = '2pi', zero = zro,
 				rotation = drc, template = 'none'),
-			 	out*c(0.5, 1.5), modulo = '2pi', zero = zro, 
+				out*c(0.5, 1.5), modulo = '2pi',
+				zero = zro, rotation = drc, ...)
+			lines.circular(as.circular(rep(upr,2),units = 'degrees',
+				type = 'angles', modulo = '2pi', zero = zro,
+				rotation = drc, template = 'none'),
+			 	out*c(0.5, 1.5), modulo = '2pi', zero = zro,
 			 	rotation = drc, ...)
 		}#CircCI <- function(mn, lci, uci, out, zro, drc, lng, ...)
 	}#if(!(	sum('CircCI'%in% ls())	))
@@ -114,7 +114,7 @@ Cplot <- function(headings, sp, bt, ax, ...){
 	#circular plot settings
 	increments <- 5 #degrees
 	zr <- pi/2 #start at top of screen (pi*	90	/180)
-	bn <- 10*10*360/5 #bins 	
+	bn <- 10*10*360/5 #bins
 	degrad <- 180/pi #conversion from radians to degrees
 	tcl <- rgb(1,1,1,0)#transparent colour
 	pcl <- rgb(.3,.1,.1,.5)#point colour
@@ -146,7 +146,7 @@ Cplot <- function(headings, sp, bt, ax, ...){
 		 CircCI(sm2['Mean']/2, sv2, out = 0.15, zro=zr, drc='clock',col='red4',lwd=1)
 		 CircCI(180+sm2['Mean']/2, sv2, out = 0.15, zro=zr, drc='clock',col='red4',lwd=1)
 	 }#if(!(ax))
-###################	END OF FUNCTION	###########################	
+###################	END OF FUNCTION	###########################
 }
 #####################################################################
 #	Plot Settings											#
@@ -165,7 +165,7 @@ lp.all <- read.table(paste0(Sys.getenv('HOME'),'/Dropbox/My Papers/Light Polluti
 
 lp.all.rho <- data.frame(Experiment = sort(rep(levels(lp.all$Experiment), 10)),
 		Beetle = rep(1:10, length(levels(lp.all$Experiment))) )
-		
+
 for(epr in levels(lp.all$Experiment)){
 	for(btl in 1:10){
 	lp.all.rho$rho[lp.all.rho$Experiment == epr & lp.all.rho$Beetle == btl] <-
@@ -179,19 +179,6 @@ levels(lp.all.rho$ShortName) <- c('Stars\nRural','Lamp\nRural')
 write.table(lp.all.rho, file = paste0(Sys.getenv('HOME'),'/Dropbox/My Papers/Light Pollution/LPallRho-SecurityLightBergsig', '.txt'))
 
 lp.all.rho <- read.table(file = paste0(Sys.getenv('HOME'),'/Dropbox/My Papers/Light Pollution/LPallRho-SecurityLightBergsig', '.txt'))
-# # dev.new(height = 7, width = 14)
-# #small screen settings
-# dev.new(height = 6.5, width = 3)
-# #plot on an invisible PNG copy
-# png(paste0(Sys.getenv('HOME'),'/Dropbox/Plotmania/', 'LP1', '_', 'Moon.Thornwood.ICIV', '.png'),
-	# width = par("din")[1], height = par("din")[2], units ='in', res = 300, bg = par('bg'))
-# par(mfrow = c(5,2), mai = c(0,0,0,0))
-# for(btl in 1:10){
-# Cplot(subset(lp.all, Experiment == 'LPexper.181122.Fullmoon.Thornwood' & Beetle == btl)$Heading, cex = 2, bt  = 2, col = 'gray')
-# }#for(btl in 1:10)
-# # mtext('Gibbous Moon Thornwood', outer = T, line = -3.2, cex = 1)
-# dev.off()
-
 
 dev.new(height = 3, width = 6.5)
 par(mfrow = c(2,5), mai = c(0,0,0,0))
@@ -216,16 +203,16 @@ cex = 0.5, outline = F, border = rgb(0,0,0,1),
 #colour code by sex, turn axes off
 	axes = F, col = c('salmon', 'slateblue'),
 	ylab = 'Mean Vector Length', xlab = '')
-#log scale axes with original data values	
+#log scale axes with original data values
 	axis(2)#, at =log10( pretty( range(soil.dt2$CO2_Flux) *2 )/2 ), labels = pretty( range(soil.dt2$CO2_Flux) *2 )/2)
 	mtext(levels(lp.all.rho$ShortName), side = 3, at = 1:length(levels(lp.all.rho$ShortName)), line = -12 )
 	abline(h =c(0,1), lwd = 0.25)
-	
+
 beeswarm(rho~ShortName, data = lp.all.rho,
 		pch = 20, method = 'center', cex = 1.8,
-		pwcol = c('orange4','gray')[lp.all.rho$ShortName], 
+		pwcol = c('orange4','gray')[lp.all.rho$ShortName],
 		add = T, axes = F)
-		
+
 PDFsave(Directory = paste0(Sys.getenv('HOME'),'/Dropbox/My Papers/Light Pollution/'), Experiment = 'LP', PlotName = "SecurityLightBergsig-Beeswarm")
 
 boxplot(rho~ShortName, data = lp.all.rho, ylim =(c(0,1)), xlim = c(0.5, 2.5),
@@ -234,7 +221,7 @@ cex = 0.5, outline = F, border = rgb(0,0,0,1),
 #colour code by sex, turn axes off
 	axes = F, col = c('salmon', 'slateblue'),
 	ylab = 'Mean Vector Length', xlab = '')
-#log scale axes with original data values	
+#log scale axes with original data values
 	axis(2)#, at =log10( pretty( range(soil.dt2$CO2_Flux) *2 )/2 ), labels = pretty( range(soil.dt2$CO2_Flux) *2 )/2)
 	mtext(levels(lp.all.rho$ShortName), side = 3, at = 1:length(levels(lp.all.rho$ShortName)), line = -12 )
 	abline(h =c(0,1), lwd = 0.25)
@@ -247,7 +234,7 @@ PDFsave(Directory = paste0(Sys.getenv('HOME'),'/Dropbox/My Papers/Light Pollutio
 
 lp.all.mu <- data.frame(Experiment = sort(rep(levels(lp.all$Experiment), 10)),
 		Beetle = rep(1:10, length(levels(lp.all$Experiment))) )
-		
+
 for(epr in levels(lp.all$Experiment)){
 	for(btl in 1:10){
 	lp.all.mu$mu[lp.all.mu$Experiment == epr & lp.all.mu$Beetle == btl] <- mean.circular( mycirc(subset(lp.all, Experiment == epr & Beetle == btl)$Heading), na.rm = T )

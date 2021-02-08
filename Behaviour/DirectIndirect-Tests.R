@@ -90,11 +90,6 @@ dt.FloodlightON.OFF.Direct$Condition <- factor(
 								dt.FloodlightON.OFF.Direct$Condition,
 			levels = c('SecurityLightONRural','SecurityLightOFFRural'))
 								#ON is alternative
-wc.FloodlightON.OFF.Direct <- wilcox.test(rho ~ Condition,
-									data = dt.FloodlightON.OFF.Direct,
-									alternative = 'greater') 
-# print(FloodlightON.OFF.Direct)
-		# W = 75, p-value = 0.03151
 #Use paired!
 dt.ON <- subset(dt.FloodlightON.OFF.Direct, grepl('ON', Condition))
 dt.OFF <- subset(dt.FloodlightON.OFF.Direct, grepl('OFF', Condition))
@@ -106,32 +101,6 @@ wc.sr.FloodlightON.OFF.Direct <- wilcox.test(dt.ON$rho,dt.OFF$rho,
 											alternative = 'greater')
 #V = 45, p-value = 0.04199
 
- # VerandaRural - Floodlight OFF 
-dt.Veranda.OFF.Direct <- subset(DirectIndirect,
-								Condition == 'VerandaRural' |
-								Condition == 'SecurityLightOFFRural')
-dt.Veranda.OFF.Direct$Condition <- factor(
-										dt.Veranda.OFF.Direct$Condition,
-					levels = c('VerandaRural','SecurityLightOFFRural'))
-							#VerandaRural is alternative					
-wc.Veranda.OFF.Direct <- wilcox.test(rho ~ Condition,
-										data = dt.Veranda.OFF.Direct,
-										 alternative = 'greater')
-# print(wc.Veranda.OFF.Direct)
-		# W = 63, p-value = 0.1763
-		
- # MushroomsUrban - Floodlight OFF 
-dt.Mushrooms.OFF.Direct <- subset(DirectIndirect,
-								Condition == 'MushroomsUrban' |
-								Condition == 'SecurityLightOFFRural')
-dt.Mushrooms.OFF.Direct$Condition <- factor(dt.Mushrooms.OFF.Direct$Condition,
-				levels = c('MushroomsUrban','SecurityLightOFFRural'))
-						#MushroomsUrban is the alternative
-wc.Mushrooms.OFF.Direct <- wilcox.test(rho ~ Condition,
-										data = dt.Mushrooms.OFF.Direct,
-											alternative = 'greater')
- # print(wc.Mushrooms.OFF.Direct)
-		# W = 36, p-value = 0.8601 
 
 #	Indirect Light Pollution
  # StarsWallsRural - OvercastWallsRural 
@@ -175,53 +144,7 @@ wc.Stars.Rural.Urban <- wilcox.test(rho ~ Condition,
 		# W = 94, p-value = 0.03843
 		
 #Eyes covered versus everything
- # SecurityON - EyesCovered 
-dt.SecurityON.EyesCovered <- subset(DirectIndirect,
-								Condition == 'SecurityLightONRural' |
-								Condition == 'EyesCoveredWallsUrban')
-dt.SecurityON.EyesCovered$Condition <- factor(dt.SecurityON.EyesCovered$Condition,
-			levels = c('SecurityLightONRural','EyesCoveredWallsUrban'))
-wc.SecurityON.EyesCovered <- wilcox.test(rho ~ Condition,
-									data = dt.SecurityON.EyesCovered,
-									alternative = 'greater')
- # print(wc.SecurityON.EyesCovered)
-		# W = 70, p-value = 5.142e-05
 
- # SecurityOFF - EyesCovered 
-dt.SecurityOFF.EyesCovered <- subset(DirectIndirect,
-								Condition == 'SecurityLightOFFRural' |
-								Condition == 'EyesCoveredWallsUrban')
-dt.SecurityOFF.EyesCovered$Condition <- factor(dt.SecurityOFF.EyesCovered$Condition,
-			levels = c('SecurityLightOFFRural','EyesCoveredWallsUrban'))
-wc.SecurityOFF.EyesCovered <- wilcox.test(rho ~ Condition,
-									data = dt.SecurityOFF.EyesCovered,
-									alternative = 'greater')
- # print(wc.SecurityON.EyesCovered)
-		# W = 70, p-value = 5.142e-05
-		
- # Veranda - EyesCovered 
-dt.Veranda.EyesCovered <- subset(DirectIndirect,
-								Condition == 'VerandaRural' |
-								Condition == 'EyesCoveredWallsUrban')
-dt.Veranda.EyesCovered$Condition <- factor(dt.Veranda.EyesCovered$Condition,
-			levels = c('VerandaRural','EyesCoveredWallsUrban'))
-wc.Veranda.EyesCovered <- wilcox.test(rho ~ Condition,
-									data = dt.Veranda.EyesCovered,
-									alternative = 'greater')
- # print(wc.SecurityON.EyesCovered)
-		# W = 69, p-value = 0.0001028		
-		
- # MushroomsUrban - EyesCovered 
-dt.MushroomsUrban.EyesCovered <- subset(DirectIndirect,
-								Condition == 'MushroomsUrban' |
-								Condition == 'EyesCoveredWallsUrban')
-dt.MushroomsUrban.EyesCovered$Condition <- factor(dt.MushroomsUrban.EyesCovered$Condition,
-			levels = c('MushroomsUrban','EyesCoveredWallsUrban'))
-wc.MushroomsUrban.EyesCovered <- wilcox.test(rho ~ Condition,
-								data = dt.MushroomsUrban.EyesCovered,
-									alternative = 'greater')
- # print(wc.SecurityON.EyesCovered)
-		# W = 65, p-value = 0.000977		
 		
  # StarsRural - EyesCovered 
 dt.Rural.EyesCovered <- subset(DirectIndirect,
@@ -256,17 +179,11 @@ dt.Clouds.EyesCovered$Condition <-
 			levels = c('OvercastWallsRural','EyesCoveredWallsUrban'))
 wc.Clouds.EyesCovered <- wilcox.test(rho ~ Condition,
 									data = dt.Clouds.EyesCovered,
-										alternative = 'greater')
- # print(wc.SecurityON.EyesCovered)
-		# W = 36, p-value = 0.4811
-#EDIT 20200712, in the paper this is now:
-wc.Clouds.EyesCovered <- wilcox.test(rho ~ Condition,
-									data = dt.Clouds.EyesCovered,
 										alternative = 'less')
 # data:  rho by Condition
 # W = 36, p-value = 0.5566
 
-# OvercastRural - EyesCovered 
+# Mushrooms - Veranda 
 dt.Veranda.Mushrooms <- subset(DirectIndirect,
 								Condition == 'VerandaRural' |
 								Condition == 'MushroomsUrban')
@@ -276,105 +193,11 @@ dt.Veranda.Mushrooms$Condition <-
 wc.Veranda.Mushrooms <- wilcox.test(rho ~ Condition,
 									data = dt.Veranda.Mushrooms,
 										alternative = 'greater')
- # print(wc.SecurityON.EyesCovered)
+ # print(wc.Veranda.Mushrooms)
 		# W = 72, p-value = 0.05256
 
 median(dt.Veranda.Mushrooms$rho)#[1] 0.8630919
 
-DirectIndirect.wc.p <- c(wc.sr.FloodlightON.OFF.Direct$p.value, 
-			wc.Veranda.OFF.Direct$p.value, 
-			wc.Mushrooms.OFF.Direct$p.value,
-			wc.Stars.Cloud.Indirect$p.value,#not really relevant
-			wc.Urban.Cloud.Indirect$p.value, #not really relevant
-			wc.Stars.Rural.Urban$p.value,  
-			wc.SecurityON.EyesCovered$p.value,
-			wc.SecurityOFF.EyesCovered$p.value,
-			wc.Veranda.EyesCovered$p.value,
-			wc.MushroomsUrban.EyesCovered$p.value,
-			wc.Rural.EyesCovered$p.value,
-			wc.Urban.EyesCovered$p.value,
-			wc.Clouds.EyesCovered$p.value)
-names(DirectIndirect.wc.p) <- c('wc.sr.FloodlightON.OFF.Direct', 
-			'wc.Veranda.OFF.Direct',
-			'wc.Mushrooms.OFF.Direct',
-			'wc.Stars.Cloud.Indirect',#not really relevant
-			'wc.Urban.Cloud.Indirect',#not really relevant
-			'wc.Stars.Rural.Urban', 
-			'wc.SecurityON.EyesCovered',  
-			'wc.SecurityOFF.EyesCovered',
-			'wc.Veranda.EyesCovered',
-			'wc.MushroomsUrban.EyesCovered',
-			'wc.Rural.EyesCovered',
-			'wc.Urban.EyesCovered',
-			'wc.Clouds.EyesCovered')
-cbind(round(p.adjust(DirectIndirect.wc.p, 'BH'),5))
-# wc.sr.FloodlightON.OFF.Direct 0.06824 #does not stand up to adjustment
-# wc.Veranda.OFF.Direct         0.20840
-# wc.Mushrooms.OFF.Direct       0.86007
-# wc.Stars.Cloud.Indirect       0.05623
-# wc.Urban.Cloud.Indirect       0.18552
-# wc.Stars.Rural.Urban          0.06824 #does not stand up to adjustment
-# wc.SecurityON.EyesCovered     0.00033 #Floodlight contributes
-# wc.SecurityOFF.EyesCovered    0.00033 #Rural surroundings contribute
-# wc.Veranda.EyesCovered        0.00045 #Veranda lights contribute
-# wc.MushroomsUrban.EyesCovered 0.00318 #Mushrooms contribute
-# wc.Rural.EyesCovered          0.05994 #does not stand up to adjustment
-# wc.Urban.EyesCovered          0.20840 
-# wc.Clouds.EyesCovered         0.52122
-
-DirectIndirect.prent <- with(DirectIndirect, prentice.test(
-									y = rho,
-								groups = Direct,
-								blocks = sky,
-								alternative = 'greater'))#asking specifically if condition light pollution conditions were more oriented))
-# statistic: chi-square = 18.436, df = 1, p-value = 8.784e-06
-#Excluding eyes covered!
-DirectIndirect.Eyes <- subset(DirectIndirect, sky != "EyesCovered")
-DirectIndirect.Eyes.prent <- with(DirectIndirect.Eyes, prentice.test(
-									y = rho,
-								groups = Direct,
-								blocks = sky,
-								alternative = 'greater'))#asking 
-# statistic: chi-square = 18.436, df = 1, p-value = 8.784e-06
-#Actually, the grouping is doing nothing here, better to compare the starry skies
-#Perhaps ignore conditions for this test
-wilcox.test(rho~!Direct, data = subset(DirectIndirect, sky == 'Stars'), alternative = 'greater')#somehow TRUE is the reference condition!
-#W = 807, p-value = 3.745e-06
-
-# grouping asks a stupid question
-# first only the direct ones
-Direct.wc.p <- c(wc.sr.FloodlightON.OFF.Direct$p.value, 
-			wc.Veranda.OFF.Direct$p.value, 
-			wc.Mushrooms.OFF.Direct$p.value)
-names(Direct.wc.p) <- c('wc.sr.FloodlightON.OFF.Direct', 
-			'wc.Veranda.OFF.Direct',
-			'wc.Mushrooms.OFF.Direct')
-cbind(round(p.adjust(Direct.wc.p, 'BH'),5))
-# wc.sr.FloodlightON.OFF.Direct 0.12598 #Pretty much all the same
-# wc.Veranda.OFF.Direct         0.26451
-# wc.Mushrooms.OFF.Direct       0.86007
-
-# then only the indirect ones
-Indirect.wc.p <- c(#wc.Stars.Cloud.Indirect$p.value,#not relevant
-			#wc.Urban.Cloud.Indirect$p.value, #not relevant
-			wc.Stars.Rural.Urban$p.value,
-			wc.Stars.Cloud.Indirect$p.value,  
-			wc.Rural.EyesCovered$p.value,
-			wc.Urban.EyesCovered$p.value,
-			wc.Clouds.EyesCovered$p.value)
-names(Indirect.wc.p) <- c(#'wc.Stars.Cloud.Indirect',#not relevant
-			#'wc.Urban.Cloud.Indirect',#not relevant
-			'wc.Stars.Rural.Urban', 
-			'wc.Stars.Cloud.Indirect',
-			'wc.Rural.EyesCovered',
-			'wc.Urban.EyesCovered',
-			'wc.Clouds.EyesCovered')
-cbind(round(p.adjust(Indirect.wc.p, 'BH'),5))
-# wc.Stars.Rural.Urban    0.06405 ???
-# wc.Stars.Cloud.Indirect 0.06405 ???
-# wc.Rural.EyesCovered    0.06405 ???
-# wc.Urban.EyesCovered    0.21919
-# wc.Clouds.EyesCovered   0.48113
 
 
 # DirectIndirect.prent <- with(DirectIndirect, prentice.test(
@@ -383,6 +206,7 @@ cbind(round(p.adjust(Indirect.wc.p, 'BH'),5))
 								# blocks = Indirect,
 								# alternative = 'greater'))#asking specifically if direct light pollution conditions were more oriented))
 # # statistic: chi-square = 30.136, df = 1, p-value = 2.014e-08
+
 # #On average, orientation precision was higher in the presence of light pollution
 bf.test(rho ~ Condition, data = DirectIndirect)
   # statistic  : 28.01555 
@@ -396,6 +220,7 @@ bf.test(rho ~ Condition, data = dt.Stars.Rural.Urban)
   # num df     : 1 
   # denom df   : 13.92372 
   # p.value    : 0.1040941 
+
 #####################################################################
 #	Heading Choice													#
 #####################################################################
