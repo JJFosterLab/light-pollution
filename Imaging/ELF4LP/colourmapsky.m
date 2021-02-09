@@ -75,7 +75,7 @@ for i = 1:length(datasets)%[3 6]%
         [x, y] = meshgrid(1:size(ims{1}, 1), 1:size(ims{1}, 2));
         r      = sqrt((x-mid(1)).^2 + (y-mid(2)).^2);
         ele    = asind(r / 2 / r_full) * 2;%r/r_full * 90;
-        ele_s  = ele; ele_s(y<mid(2)) = -ele_s(y<mid(2)); 
+        ele_s  = ele; ele_s(y<mid(2)) = -ele_s(y<mid(2));
             % 1. extract images
         rotit = rotation(j);
         for ch = 1:4
@@ -85,10 +85,10 @@ for i = 1:length(datasets)%[3 6]%
                 if rotit
                     im = rot90(permute(im, [2 1 3]), 2);        % rotate image if necessary to place Milky Way horizontally %SHOULD BE POSSIBLE TO KEEP MW VERTICAL
                 else
-                    im = fliplr(im);
+                    %im = fliplr(im);  %TODO CHECK IF THIS IS NECESSARY HERE, SEEMS UNLIKELY
                 end
                 if ch < 4
-                    im(:, :, [1:ch-1 ch+1:3]) = 0; 
+                    im(:, :, [1:ch-1 ch+1:3]) = 0;
                     sumim{sc, ch}  = sum(im, 3);
                 else
                     sumim{sc, ch}  = mean(im, 3);
@@ -98,7 +98,7 @@ for i = 1:length(datasets)%[3 6]%
         end %ch = 1:4
         wh_im = plotim{1, 4};% 1st slot is filter level: [2,4,8,16], 2nd slot is R, G, B, W?
 %         wh_im = plotim{2, 4};% select slot 2, which contains the 4° filtered image
-       fh   = figure(); 
+       fh   = figure();
        imshow((wh_im)./(nmax));%I don't think it should be flipped %imshow(flipud(wh_im)./(nmax));
        lm = [6,11]; %lm = [6,13]
        totim = abs(wh_im(:,:,1)+wh_im(:,:,2)+wh_im(:,:,3))/10000; %now in photons/cm2/s/nm
@@ -110,7 +110,7 @@ for i = 1:length(datasets)%[3 6]%
        cptcmap('GMT_wysiwygcont', 'mapping', 'scaled');
        cb = colorbar();
        caxis(lm);
-       svpath = [ datasets{i} '_' 'scene' sprintf('%03d', j) '_colormapped_' sprintf('%g',[10^6, 10^13])]; 
+       svpath = [ datasets{i} '_' 'scene' sprintf('%03d', j) '_colormapped_' sprintf('%g',[10^6, 10^13])];
        pdfsave(gcf, fullfile(pdffolder,[ svpath '_wysiwygcont.pdf']));
        export_fig(fullfile(pdffolder,[ svpath '_wysiwygcont.png']), '-native');
 %        cb = cptcbar(gca, 'GMT_globe', 'eastoutside', false);
