@@ -30,6 +30,14 @@ muStat
 beeswarm
 ```
 
+### MATLAB Dependencies
+
+```
+Curve Fitting Toolbox
+Image Processing Toolbox
+```
+
+****
 # Installation Guide:
 
 ### Install from Github
