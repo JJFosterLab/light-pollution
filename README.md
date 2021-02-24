@@ -12,3 +12,27 @@ All scripts written by JJ Foster. Data collected by JJ Foster, C Tocco, L Khaldy
 Scripts for processing, plotting and analysis of scenes recorded during behavioural experiments. Based the ```night``` and ```polar``` modules of **ELF** developed by Jochen Smolka (https://github.com/sciencedjinn/elf). Polarization images rely on ```polarELF.1.7.1 171108```, originally written for [Foster _et al._ 2019](https://doi.org/10.1242/jeb.188532). Heatmaps of scene radiance rely on [export_fig](https://github.com/altmany/export_fig) by [Yair Altman](https://github.com/altmany). ```RuralUrban-hmax-Tests.R``` and ```DirectIndirect-hmax-Tests.R``` are ```R``` scripts used to calculate the _snapshot index_ from minimum-width at half maximum for rotational image-difference curves.
 #### Contributions:
 All ELF scripts written by J Smolka with conceptual input from D-E Nilsson. ```skypipe.m```, ```rotimdiffsky.m```, ```hmax.m``` and ```colourmapsky.m``` written by JJ Foster. Data collected by JJ Foster, C Tocco, MJ Byrne and M Dacke. All analysis performed by JJ Foster.
+
+# System Requirements
+## Hardware requirements
+Requires only a standard computer with enough RAM to support the in-memory operations.
+
+## Software requirements
+### OS Requirements
+All analysis was performed on *macOS*: High Sierra (10.13.1) – Catalina (10.15.5)
+
+### R Dependencies
+
+```
+circular
+CircStats
+muStat
+beeswarm
+```
+
+# Installation Guide:
+
+### Install from Github
+```
+git clone https://github.com/JJFosterLab/light-pollution
+```
