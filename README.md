@@ -35,6 +35,7 @@ beeswarm
 ```
 Curve Fitting Toolbox
 Image Processing Toolbox
+Statistics and Machine Learning Toolbox
 ```
 
 ****
