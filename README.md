@@ -1,6 +1,6 @@
 Light Pollution Forces a Change in Dung Beetle Orientation Behaviour
 ====================
-This repository contains files relevant to the manuscript "_Light Pollution Forces a Change in Dung Beetle Orientation Behaviour_" by James J. Foster, 	Claudia Tocco, Jochen Smolka, Lana Khaldy, Emily Baird, Marcus J. Byrne, Dan-Eric Nilsson and Marie Dacke (submitted).
+This repository contains files relevant to the manuscript ["_Light Pollution Forces a Change in Dung Beetle Orientation Behaviour_"](https://www.cell.com/current-biology/fulltext/S0960-9822(21)00833-2) by James J. Foster, 	Claudia Tocco, Jochen Smolka, Lana Khaldy, Emily Baird, Marcus J. Byrne, Dan-Eric Nilsson and Marie Dacke (2021).
 The source code is [statistical analysis](https://github.com/JJFosterLab/light-pollution/tree/master/Behaviour), written in ```R```, and [image analysis](https://github.com/JJFosterLab/light-pollution/tree/master/Imaging), written in ```MATLAB```, based on the **E**nvironmental **L**ight **F**ield ([ELF](https://github.com/sciencedjinn/elf)) system developed by Smolka & Nilsson (D.-E. Nilsson, J. Smolka, 2021 [Quantifying biologically essential aspects of environmental light.](https://doi.org/10.1098/rsif.2021.0184) _J. R. Soc. Interface_ 18: 20210184).  Image data (```.mat``` files) are available from [Figshare](https://doi.org/10.1098/rsif.2021.0184). 
 # File Manifest
 ## Behaviour
